@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "488744666452",
+    "project_id": "khatwa-dc0e2",
+    "storage_bucket": "khatwa-dc0e2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488744666452:android:50917264a3a533ecc2f4c1",
+        "android_client_info": {
+          "package_name": "com.example.ajyal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZcJ42y8E08rwaPe7nDg3y63Z91_r_5Sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488744666452:android:26b4948d072f5f2ec2f4c1",
+        "android_client_info": {
+          "package_name": "com.khatwa.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZcJ42y8E08rwaPe7nDg3y63Z91_r_5Sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

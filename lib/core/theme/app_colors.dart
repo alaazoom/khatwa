@@ -1,0 +1,56 @@
+import 'package:flutter/material.dart';
+
+/// المصدر الوحيد للألوان. الودجتس تقرأ الألوان من Theme.of(context).colorScheme فقط.
+abstract final class AppColors {
+  static final ColorScheme lightScheme = ColorScheme.light(
+    primary: const Color(0xFF13806E),
+    onPrimary: Colors.white,
+    primaryContainer: const Color(0xFFD5F0E9),
+    onPrimaryContainer: const Color(0xFF0B3F37),
+    secondary: const Color(0xFF2F8F9D),
+    onSecondary: Colors.white,
+    secondaryContainer: const Color(0xFFD6EEF2),
+    onSecondaryContainer: const Color(0xFF123D44),
+    tertiary: const Color(0xFFB7860B),
+    onTertiary: Colors.white,
+    tertiaryContainer: const Color(0xFFFFF0C2),
+    onTertiaryContainer: const Color(0xFF4A3500),
+    error: const Color(0xFFBA1A1A),
+    onError: Colors.white,
+    errorContainer: const Color(0xFFFFDAD6),
+    onErrorContainer: const Color(0xFF410002),
+    surface: const Color(0xFFF6FBF9),
+    onSurface: const Color(0xFF15302B),
+    onSurfaceVariant: const Color(0xFF5A7670),
+    surfaceContainerLowest: Colors.white,
+    surfaceContainerLow: const Color(0xFFEDF6F3),
+    outline: const Color(0xFF8DB3AA),
+    outlineVariant: const Color(0xFFD3E6E0),
+  );
+
+  static final ColorScheme darkScheme = ColorScheme.dark(
+    primary: const Color(0xFF4FD1B8),
+    onPrimary: const Color(0xFF00382F),
+    primaryContainer: const Color(0xFF0E4F45),
+    onPrimaryContainer: const Color(0xFFBDF5E8),
+    secondary: const Color(0xFF7CC9D6),
+    onSecondary: const Color(0xFF003740),
+    secondaryContainer: const Color(0xFF1C4E57),
+    onSecondaryContainer: const Color(0xFFCDEFF5),
+    tertiary: const Color(0xFFF2C857),
+    onTertiary: const Color(0xFF3F2E00),
+    tertiaryContainer: const Color(0xFF4A3D12),
+    onTertiaryContainer: const Color(0xFFFFEDB5),
+    error: const Color(0xFFFFB4AB),
+    onError: const Color(0xFF690005),
+    errorContainer: const Color(0xFF5C1E1E),
+    onErrorContainer: const Color(0xFFFFDAD6),
+    surface: const Color(0xFF0F1B19),
+    onSurface: const Color(0xFFE3F2EE),
+    onSurfaceVariant: const Color(0xFFA9C4BE),
+    surfaceContainerLowest: const Color(0xFF1B2D29),
+    surfaceContainerLow: const Color(0xFF162522),
+    outline: const Color(0xFF4E6B65),
+    outlineVariant: const Color(0xFF2A3F3B),
+  );
+}
